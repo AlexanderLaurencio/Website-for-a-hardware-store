@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Recursos/Imagenes/Logo_Pequeño.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ferreteria | Inicio</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./Recursos/Imagenes/Logo_Barra_De_Navegacion.png" alt="Ferretodo" title="Ferretodo" class="header__logo">
+        <nav class="nav header__nav">
+            <ul class="nav__list">
+                <li class="nav__element"><a href="#" class="nav__link nav__link--active">Inicio</a></li>
+                <li class="nav__element"><a href="./Paginas/productos.html" class="nav__link">Productos</a></li>
+                <li class="nav__element"><a href="./Paginas/contactos.html" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+        <input type="search" class="header__search" placeholder="Buscar productos...">
+    </header>
+    <main class="main">
+        <h1 class="main__title">
+            <span class="main__title--first">Todo lo que necesitas,</span>
+            <span class="main__title--second">en un solo lugar</span>
+        </h1>
+        <h2 class="main__subtitle">Herramientas, materiales y mas para tus proyectos.</h2>
+        <a href="./Paginas/productos.html" class="main__button">Ver productos</a>
+    </main>
+    <section class="section">
+        <article class="article section__article section__article--first">
+            <img src="./Recursos/Imagenes/CamionSVG.svg" class="section__image" alt="Camion">
+            <div class="section__subcontainer">
+                <h3 class="section__title">Envios rapidos</h3>
+                <p class="section__paragraph">Entregas en 24/48 horas en todos el pais.</p>
+            </div>
+        </article>
+        <article class="article section__article">
+            <img src="./Recursos/Imagenes/EscudoSVG--Black.svg" class="section__image" alt="Escudo">
+            <div class="section__subcontainer">
+                <h3 class="section__title">Calidad garantizada</h3>
+                <p class="section__paragraph">Productos de primeras marcas y alta durabilidad.</p>
+            </div>
+        </article>
+
+        <article class="article section__article">
+            <img src="./Recursos/Imagenes/TarjetaSVG.svg" class="section__image" alt="Tarjeta">
+            <div class="section__subcontainer">
+                <h3 class="section__title">Pagos seguros</h3>
+                <p class="section__paragraph">Múltiples métodos de pago protegidos.</p>
+            </div>
+        </article>
+
+        <article class="article section__article">
+            <img src="./Recursos/Imagenes/AudifonosSVG--Black.svg" class="section__image" alt="Audifonos">
+            <div class="section__subcontainer">
+                <h3 class="section__title">Atención experta</h3>
+                <p class="section__paragraph">Asesoramiento personalizado para tu proyecto.</p>
+            </div>
+        </article>
+    </section>
+    <section class="section--products">
+        <h3 class="section__title--products">Productos destacados</h3>
+        <div class="carrousel--left">
+            <div class="carrousel--left-row"></div>
+            <div class="carrousel--left-row" aria-hidden="true"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__extrainfo">
+            <img src="./Recursos/Imagenes/Logo_Barra_De_Navegacion.png" alt="Ferretodo">
+            <p class="footer__paragraph">Ofrecemos las mejores herramientas, materiales y asesoramiento para que tus proyectos sean un éxito.</p>
+            <div class="footer__logos">
+                <img src="./Recursos/Imagenes/FacebookSVG.svg" alt="Facebook" title="Facebook">
+                <img src="./Recursos/Imagenes/InstagramSVG.svg" alt="Instagram" title="Instagram">
+                <img src="./Recursos/Imagenes/WhatsappSVG.svg" alt="Whatsapp" title="Whatsapp">
+            </div>
+        </div>
+        <ul class="footer__list">
+            <li class="footer_element footer__element--first">Enlaces</li>
+            <li class="footer__element"><a href="#" class="footer__link">Inicio</a></li>
+            <li class="footer__element"><a href="/Paginas/productos.html" class="footer__link">Productos</a></li>
+            <li class="footer__element"><a href="/Paginas/contactos.html" class="footer__link">Contacto</a></li>
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__element footer__element--first">Categorias</li>
+            <li class="footer__element">Herramientas electricas</li>
+            <li class="footer__element">Herramientas manuales</li>
+            <li class="footer__element">Pinturas y acabados</li>
+            <li class="footer__element">Plomeria</li>
+            <li class="footer__element">Electrico</li>
+            <li class="footer__element">Construccion</li>
+            
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__element"><img src="./Recursos/Imagenes/WhatsappSVG.svg" alt="Whatsapp" title="Whatsapp">+1 829 393 9322</li>
+            <li class="footer__element"><img src="./Recursos/Imagenes/EmailSVG.svg" alt="Email" title="Email">ferretodo@gmail.com</li>
+            <li class="footer__element"><img src="./Recursos/Imagenes/UbicacionSVG.svg" alt="Ubicacion">Carrete Mella. Santo Domingo este</li>
+        </ul>
+    </footer>
+    <script src="Scripts JS/index.js" type="module"></script>
+</body>
+</html>
