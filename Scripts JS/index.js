@@ -45,7 +45,7 @@ function displayProducts(array, quantityOfProducts) {
 
             let carrouselImg = document.createElement("img");
             carrouselImg.classList.add(".carrousel__img");
-            carrouselImg.src = `${productObject.imgUrl.slice(1)}`;
+            carrouselImg.src = `${productObject.imgUrl}`;
             carrouselImg.alt = productObject.title;
 
             let carrouselTitle = document.createElement("h4");
